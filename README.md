@@ -3,7 +3,6 @@
      </div>
 <p align="center"> <a href="https://voidrak.github.io/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="https://twitter.com/" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-1DA1F2?style=normal&logo=twitter&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.instagram.com/nahomrak/" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-E4405F?style=normal&logo=instagram&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/nahom-abraham-460656286/}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 # Description
-Website <a href="https://raksky.netlify.app">link</a>
 RakSky is a web-based weather application. The app, developed using JavaScript, CSS, and HTML, provides users with real-time weather information for different locations. With RakSky, users can easily check the current weather conditions, temperature, humidity, and more, helping them stay informed about the weather in their area or any desired location
 
 # Features
