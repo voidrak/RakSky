@@ -14,7 +14,7 @@ body {
 .card {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #46e5b6, #454d6f);
+  background: linear-gradient(135deg, #ffffff, #1135d4);
   border-radius: 20px;
 }
 .search {
@@ -40,4 +40,41 @@ button {
 button img {
   width: 16px;
   height: auto;
+}
+.temp-city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temp-city img {
+  width: 170px;
+  margin-top: 10px;
+}
+.temp-city h1 {
+  font-size: 5rem;
+  margin-top: -20px;
+}
+.temp-city h2 {
+  margin-top: -50px;
+  font-size: 3rem;
+}
+.sub-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.humidity-wind {
+  margin-top: 1rem;
+  display: flex;
+  padding-bottom: 3rem;
+  /* flex-grow: 0; */
+}
+.humidity-wind img {
+  width: 46px;
+  align-self: flex-start;
+}
+.humidity-wind p {
+  margin-top: -3px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
