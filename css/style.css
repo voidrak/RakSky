@@ -8,8 +8,13 @@ body {
   background-color: #212121;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#personal a:any-link {
+  text-decoration: none;
+  color: aquamarine;
 }
 .card {
   width: 90%;
@@ -20,6 +25,19 @@ body {
 .search {
   margin: 20px 0;
   display: flex;
+}
+.error-message {
+  display: none;
+}
+.error-message h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.error-message h2 span {
+  color: rgb(192, 36, 36);
+}
+.weather-details {
+  display: none;
 }
 input {
   height: 30px;

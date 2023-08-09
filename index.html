@@ -8,47 +8,58 @@
     <link rel="stylesheet" href="css/style.css">
     <title>RakSky</title>
 </head>
-<div class="card">
-
-    <div class="search">
-        <input type="text" spellcheck="false" placeholder="Enter The City Name">
-        <button><img src="img/search.png"></button>
-    </div>
-    <div class="weather-details">
-
-        <div class="temp-city">
-            <img src="img/rain.png">
-            <h1 class="temprature">19°c</h1>
-            <h2 class="city">Awassa</h2>
-        </div>
-
-        <div class="sub-card">
-
-            <div class="humidity-wind">
-                <img class="humidity" src="img/humidity.png">
-                <div>
-                    <p class="humidity">50%</p>
-                    <p>Humidity</p>
-                </div>
-            </div>
-
-
-            <div class="humidity-wind">
-                <img class="wind" src="img/wind.png">
-                <div>
-                    <p class="wind">15 km/h</p>
-                    <p>wind</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-</div>
 
 <body>
+
+    <div id="personal">
+        <p>Made by <a href="https://github.com/voidrak" target="_blank" rel="noopener noreferrer">RAK</a> with ❤️❤️❤️
+        </p>
+    </div>
+    <div class="card">
+
+        <div class="search">
+            <input type="text" spellcheck="false" placeholder="Enter The City Name">
+            <button><img src="img/search.png"></button>
+        </div>
+        <div class="error-message">
+            <h2> <span>Error🤕</span> Please Check the City Name Again</h2>
+        </div>
+        <div class="weather-details">
+
+            <div class="temp-city">
+                <img src="img/rain.png">
+                <h1 class="temperature">19°c</h1>
+                <h2 class="city">Awassa</h2>
+            </div>
+
+            <div class="sub-card">
+
+                <div class="humidity-wind">
+                    <img src="img/humidity.png">
+                    <div>
+                        <p id="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+
+                <div class="humidity-wind">
+                    <img src="img/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>wind</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <script src="js/main.js"></script>
+
 
 </body>
 
