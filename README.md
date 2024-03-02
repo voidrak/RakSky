@@ -6,7 +6,8 @@
 # Description
 RakSky is a web-based weather application. The app, developed using JavaScript, CSS, and HTML, provides users with real-time weather information for different locations. With RakSky, users can easily check the current weather conditions, temperature, humidity, and more, helping them stay informed about the weather in their area or any desired location
 
-##Website <a href="https://raksky.netlify.app">link</a>
+#Website Link 
+<a href="https://raksky.netlify.app">link</a>
 
 # Features
 With RakSky, users can easily check the current weather conditions, temperature, humidity, and more, helping them stay informed about the weather in their area or any desired location
